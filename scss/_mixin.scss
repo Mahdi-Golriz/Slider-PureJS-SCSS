@@ -1,0 +1,10 @@
+:root {
+  --width: 100vw;
+  --height: 50rem;
+  --top: calc(var(--height));
+}
+
+@mixin dimensions($width: var(--width), $height: var(--height)) {
+  width: $width;
+  height: $height;
+}
