@@ -4,7 +4,7 @@
   --top: calc(var(--height));
 }
 
-div.slider > div > button.left-arrow, div.slider > div > button.right-arrow {
+div.slider__container > div.slides__container > button.left-arrow, div.slider__container > div.slides__container > button.right-arrow {
   background-color: #2b2b2b;
   color: beige;
   display: inline-block;
@@ -18,9 +18,9 @@ div.slider > div > button.left-arrow, div.slider > div > button.right-arrow {
   cursor: pointer;
   position: absolute;
   top: calc(var(--top) / 2);
-  z-index: 3;
+  z-index: 20;
 }
-div.slider > div > button.left-arrow:hover, div.slider > div > button.right-arrow:hover {
+div.slider__container > div.slides__container > button.left-arrow:hover, div.slider__container > div.slides__container > button.right-arrow:hover {
   background-color: #423e3e;
 }
 
@@ -28,14 +28,14 @@ div.slider > div > button.left-arrow:hover, div.slider > div > button.right-arro
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  transition: 500ms;
+  transition: 300ms;
 }
 
 html {
   font-size: 62.5%;
 }
 
-div.slider {
+div.slider__container {
   width: var(--width);
   height: var(--height);
   overflow: hidden;
@@ -44,66 +44,64 @@ div.slider {
   flex-direction: column;
   align-items: center;
 }
-div.slider > div {
-  position: relative;
+div.slider__container > div.slides__container {
   width: 100%;
   height: 90%;
-}
-div.slider > div > ul.container {
-  list-style: none;
   position: relative;
+}
+div.slider__container > div.slides__container > ul.slides {
+  list-style: none;
+  display: flex;
   width: inherit;
   height: 100%;
 }
-div.slider > div > ul.container > li.slide {
-  width: inherit;
+div.slider__container > div.slides__container > ul.slides > li.slide {
+  min-width: 100%;
   height: inherit;
-  transform: translateX(0);
   position: absolute;
-  display: none;
 }
-div.slider > div > ul.container > li.next {
+div.slider__container > div.slides__container > ul.slides > li.next {
   transform: translateX(var(--width));
-  display: block;
+  z-index: 10;
 }
-div.slider > div > ul.container > li.prev {
+div.slider__container > div.slides__container > ul.slides > li.prev {
   transform: translateX(calc(-1 * var(--width)));
-  display: block;
+  z-index: 10;
 }
-div.slider > div > ul.container > li.active {
+div.slider__container > div.slides__container > ul.slides > li.active {
+  z-index: 15;
   transform: translateX(0);
-  display: block;
-  z-index: 2;
 }
-div.slider > div > ul.container figure {
+div.slider__container > div.slides__container > ul.slides figure {
   width: inherit;
   height: inherit;
   position: relative;
 }
-div.slider > div > ul.container figure > img {
-  width: inherit;
+div.slider__container > div.slides__container > ul.slides figure > img {
+  width: 100%;
   height: inherit;
   object-fit: cover;
   object-position: top;
 }
-div.slider > div > ul.container figure > figcaption {
+div.slider__container > div.slides__container > ul.slides figure > figcaption {
   position: absolute;
   width: 30%;
   color: aliceblue;
   text-align: center;
   padding: 4rem;
   font-size: 3rem;
+  top: 0;
 }
-div.slider > div > ul.container figure > figcaption > p {
+div.slider__container > div.slides__container > ul.slides figure > figcaption > p {
   font-size: 1.5rem;
 }
-div.slider > div > button.right-arrow {
+div.slider__container > div.slides__container > button.right-arrow {
   right: 3rem;
 }
-div.slider > div > button.left-arrow {
+div.slider__container > div.slides__container > button.left-arrow {
   left: 3rem;
 }
-div.slider ul.dots {
+div.slider__container ul.dots {
   width: inherit;
   height: auto;
   padding: 1.5rem;
@@ -113,18 +111,18 @@ div.slider ul.dots {
   justify-content: center;
   list-style: none;
 }
-div.slider ul.dots li {
+div.slider__container ul.dots li {
   width: auto;
   height: auto;
 }
-div.slider ul.dots li a.dot {
+div.slider__container ul.dots li a {
   display: block;
   width: 2rem;
   height: 1rem;
   background-color: black;
   border-radius: 0.2rem;
 }
-div.slider ul.dots li a.activeDot {
+div.slider__container ul.dots li a.activeDot {
   background-color: #898484;
 }
 
