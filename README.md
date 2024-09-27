@@ -67,13 +67,31 @@ Then I used the Factorty Design Pattern to implement that. For styling, I used t
 - ![sass][sass.css]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Mahdi-Golriz/Slider-PureJS-SCSS.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the project using live server
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Dear instructor and contributor
+
+<a href="https://github.com/Mahdi-Golriz/Slider-PureJS-SCSS/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mahdi-Golriz/Slider-PureJS-SCSS" />
+</a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [HTML.dev]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [JavaScript.js]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
 [sass.css]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
-
-<!-- GETTING STARTED -->
-
-## Getting Started
