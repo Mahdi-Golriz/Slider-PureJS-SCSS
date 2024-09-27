@@ -1,4 +1,9 @@
+<a id="readme-top"></a>
+
 <!-- PROJECT Demo -->
+
+## Demo<!-- Required -->
+
 <br />
 <div align="center">
   <img alt="demo" src='./images/Demo.gif' />
@@ -33,3 +38,32 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+This project is a training task for learning JavaScript in depth. In this Project we want to build a slider with below features:
+
+- A Title and description on top of the image
+- Slide with the arrow to left or right
+- Slide with Dots under the slider
+- Move with arrow keys
+- Infinite movement to left or right without duplicating items
+- Autoplay
+- Support custom width images
+- Support custom height images
+- All of the properties can be changed via an object passed to the constructor
+
+* <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+- [![HTML][HTML.dev]]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[HTML.dev]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
