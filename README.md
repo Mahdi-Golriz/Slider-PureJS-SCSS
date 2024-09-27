@@ -25,17 +25,9 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#dear-instructor">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -82,13 +74,21 @@ Then I used the Factorty Design Pattern to implement that. For styling, I used t
 3. Run the project using live server
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Dear instructor and contributor
+## Dear Instructor
 
-<a href="https://github.com/Mahdi-Golriz/Slider-PureJS-SCSS/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Mahdi-Golriz/Slider-PureJS-SCSS" />
-  <img src="https://contrib.rocks/image?repo=MRezaSafari/Slider-PureJS-SCSS" />
+<a href="https://github.com/MRezaSafari">
+  Reza Safari
 </a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :closed_book: License
+
+Released in 2024 :closed_book: License
+
+Made by Mahdi Golriz 🚀.
+This project is under the [MIT license](https://opensource.org/licenses/MIT).
+
+Give a ⭐️ if this project helped you!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
