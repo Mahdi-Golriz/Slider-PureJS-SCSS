@@ -86,6 +86,7 @@ Then I used the Factorty Design Pattern to implement that. For styling, I used t
 
 <a href="https://github.com/Mahdi-Golriz/Slider-PureJS-SCSS/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Mahdi-Golriz/Slider-PureJS-SCSS" />
+  <img src="https://contrib.rocks/image?repo=MRezaSafari/Slider-PureJS-SCSS" />
 </a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
