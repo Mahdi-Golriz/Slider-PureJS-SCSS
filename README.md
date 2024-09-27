@@ -55,15 +55,25 @@ This project is a training task for learning JavaScript in depth. In this Projec
 - Support custom height images
 - All of the properties can be changed via an object passed to the constructor
 
-* <p align="right">(<a href="#readme-top">back to top</a>)</p>
+I gained practical skills and experience in dealing with DOM elements and their manipulation, events and web APIs. At first, I designed an algorithm to solve the project and provide its features.
+Then I used the Factorty Design Pattern to implement that. For styling, I used the SCSS and it's different capablities.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [![HTML][HTML.dev]]
-
+- ![HTML][HTML.dev]
+- ![JavaScript][JavaScript.js]
+- ![sass][sass.css]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [HTML.dev]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[JavaScript.js]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[sass.css]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+
+<!-- GETTING STARTED -->
+
+## Getting Started
