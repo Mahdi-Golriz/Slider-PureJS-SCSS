@@ -6,11 +6,11 @@
 
 <br />
 <div align="center">
-  <img alt="demo" src='./images/Demo.gif' />
   <h3 align="center">Slider-Pure-JavaScript-SCSS</h3>
   <p align="center">
     An awesome elementary JavaScript task!
   </p>
+  <img alt="demo" src='./images/Demo.gif' />
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -35,20 +35,19 @@
 
 ## About The Project
 
-This project is a training task for learning JavaScript in depth. In this Project we want to build a slider with below features:
+This project is a hands-on task aimed at deepening my understanding of JavaScript. The objective is to build an image slider with the following features:
 
-- A Title and description on top of the image
-- Slide with the arrow to left or right
-- Slide with Dots under the slider
-- Move with arrow keys
-- Infinite movement to left or right without duplicating items
-- Autoplay
-- Support custom width images
-- Support custom height images
-- All of the properties can be changed via an object passed to the constructor
+- A title and description displayed above each image
+- Navigation via left and right arrows
+- Slide control using dots below the slider
+- Navigation through arrow keys
+- Infinite looping without duplicating items
+- Autoplay functionality
+- Support for custom image widths
+- Support for custom image heights
+- Full customization of properties through an object passed to the constructor
 
-I gained practical skills and experience in dealing with DOM elements and their manipulation, events and web APIs. At first, I designed an algorithm to solve the project and provide its features.
-Then I used the Factorty Design Pattern to implement that. For styling, I used the SCSS and it's different capablities.
+Through this project, I gained practical experience in working with DOM elements, manipulating - them, handling events, and interacting with web APIs. Initially, I designed an algorithm to implement the required features, then used the Factory Design Pattern for the implementation. For styling, I leveraged SCSS and its various capabilities.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
