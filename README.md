@@ -49,6 +49,8 @@ This project is a hands-on task aimed at deepening my understanding of JavaScrip
 
 Through this project, I gained practical experience in working with DOM elements, manipulating - them, handling events, and interacting with web APIs. Initially, I designed an algorithm to implement the required features, then used the Factory Design Pattern for the implementation. For styling, I leveraged SCSS and its various capabilities.
 
+You can customize the slider by specifying options such as the initial slide to be displayed, the autoplay interval, and the slider's dimensions. Additionally, you have the flexibility to define the number of slides directly in the HTML section.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With

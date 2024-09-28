@@ -74,9 +74,11 @@ let Slider = function ({ firstActiveIndex = 0, intervalTime, width, height }) {
       if (e.key === "ArrowRight") {
         _moveTo(++_config.activeIndex);
         _clearAutoPlay();
+        _updateDots();
       } else if (e.key === "ArrowLeft") {
         _moveTo(--_config.activeIndex);
         _clearAutoPlay();
+        _updateDots();
       }
     });
   }
